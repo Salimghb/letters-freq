@@ -32,3 +32,8 @@ hs_err_pid*
 *.iml
 out
 gen
+letters-freq-war/mvnw.cmd
+letters-freq-war/mvnw
+letters-freq-war/.mvn/wrapper/MavenWrapperDownloader.java
+letters-freq-war/.mvn/wrapper/maven-wrapper.properties
+letters-freq-war/.mvn/wrapper/maven-wrapper.jar
