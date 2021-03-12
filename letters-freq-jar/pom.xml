@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>perso.salim</groupId>
-    <artifactId>letters-freq-war</artifactId>
+    <artifactId>letters-freq-jar</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <packaging>war</packaging>
-    <name>letters-freq-war</name>
+    <packaging>jar</packaging>
+    <name>letters-freq-jar</name>
 
     <properties>
         <java.version>8</java.version>
@@ -47,16 +47,6 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpcore</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpcore</artifactId>
-            <version>4.0.1</version>
         </dependency>
     </dependencies>
 

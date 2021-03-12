@@ -25,6 +25,11 @@ public class LettersFreqWarApplication {
         SpringApplication.run(LettersFreqWarApplication.class, args);
     }
 
+    @GetMapping("")
+    public String index() {
+        return "a";
+    }
+
     @GetMapping("/totOccByLetter")
     public Map<Character, Integer> totOccByLetter(@PathParam(value="language") String language) throws IOException {
         return controller.getTotOccByLetter(language);

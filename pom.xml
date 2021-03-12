@@ -16,6 +16,12 @@
     <properties>
         <java.version>8</java.version>
     </properties>
+
+    <modules>
+        <module>letters-freq-jar</module>
+        <module>letters-freq-war</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
